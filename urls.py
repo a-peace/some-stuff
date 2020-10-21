@@ -28,6 +28,7 @@ urlpatterns = [
     url(r'^delete_contract/<pk>/$', views.delete_contract, name='delete_contract'),
 
     # Сроки
+    url(r'^table/$', views.table, name='table'),
     url(r'^create_timing/$', views.create_timing, name='create_timing'),
     url(r'^update_timing/<kek>/$', views.update_timing, name='update_timing'),
     url(r'^delete_timing/<kek>/$', views.delete_timing, name='delete_timing'),
